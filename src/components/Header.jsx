@@ -8,7 +8,7 @@ const NavBar = () => {
   
     <nav className="navbar navbar-expand-lg ">
       <div className="container">
-      <Link className="navbar-brand mx-5 col-md-1 " to="/"><img src="images/logo.jpg" style={{ borderRadius: '50%', width: '50px', height: '40px' }} alt="logo" /></Link>
+      <Link className="navbar-brand mx-5 col-md-1 " to="/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYCW0GHdeuqRzO0iRwmguPzvG6uhIrqUf9Ew&usqp=CAU" style={{ borderRadius: '50%', width: '50px', height: '40px' }} alt="logo" /></Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="col-md-6 mb-4 mb-md-0">
                         <Link to="/" className="d-flex align-items-center">
                             <img
-                                src="images/logo.jpg"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYCW0GHdeuqRzO0iRwmguPzvG6uhIrqUf9Ew&usqp=CAU"
                                 className="mr-3 img-fluid"
                                 alt="Logo"
                                 style={{width:'300px' , height :'160px'}}

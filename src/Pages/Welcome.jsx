@@ -10,6 +10,7 @@ export default function WelcomePage() {
         <Carousel />
         <h1 className="text-center mt-5">Places to Visit</h1>
         <Trips />
+        <Trips/>
         <section >
             <h1 className="text-center mt-5">HOW IT WORKS</h1>
             <div className="container">

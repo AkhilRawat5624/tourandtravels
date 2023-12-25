@@ -17,13 +17,13 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <div>
-        <img src="images/slide1.jpg" alt="" style={{width:'100%', height:'70vh'}}/>
+        <img src="https://savetoursandtravels.com/wp-content/uploads/2023/09/kerala1.jpg" alt="" style={{width:'100%', height:'70vh'}}/>
       </div>
       <div>
-      <img src="images/slide2.jpg" alt="" style={{width:'100%', height:'70vh'}}/>
+      <img src="https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2023/10/var.jpg" alt="" style={{width:'100%', height:'70vh'}}/>
       </div>
       <div>
-      <img src="images/slide3.jpg" alt="" style={{width:'100%', height:'70vh'}}/>
+      <img src="https://uttarakhandexperts.com/wp-content/uploads/2022/07/1587597395_10.jpg" alt="" style={{width:'100%', height:'70vh'}}/>
       </div>
     </Slider>
   );

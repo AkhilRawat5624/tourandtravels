@@ -1,0 +1,79 @@
+{
+  "registerAdmin": [
+    {
+      "fname": "Akhil",
+      "email": "rawatakhil5624@gmail.com",
+      "mobile": "9311712152",
+      "username": "akhilr",
+      "password": "123456",
+      "City": 4.492778569312823,
+      "id": 1
+    },
+    {
+      "fname": "Abhishek",
+      "email": "ak2334@gmail.com",
+      "mobile": "7658908765",
+      "username": "abhishek",
+      "password": "90087656",
+      "id": 2
+    }
+  ],
+  "trips": [
+    {
+      "id": 1,
+      "name": "Trip 1",
+      "basePrice": 500,
+      "days": 1,
+      "img": "https://www.bookitforgetit.com/wp-content/uploads/2018/04/Hill-station_2.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Trip 1",
+      "basePrice": 500,
+      "days": 1,
+      "img": "https://www.responsibletravel.com/imagesclient/L_124933.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Trip 1",
+      "basePrice": 500,
+      "days": 1,
+      "img": "https://www.oyorooms.com/blog/wp-content/uploads/2017/11/Feature-Image-min-12.jpg"
+    }
+  ],
+  "product": [
+    {
+      "tripId": 1,
+      "tripName": "Trip 1",
+      "selectedDates": {
+        "dateFrom": "2023-12-24T14:27:08.935Z",
+        "dateTo": "2023-12-29T14:27:08.000Z"
+      },
+      "totalPrice": 3000,
+      "days": 6,
+      "id": 1
+    },
+    {
+      "tripId": 2,
+      "tripName": "Trip 1",
+      "selectedDates": {
+        "dateFrom": "2023-12-24T14:28:57.082Z",
+        "dateTo": "2024-01-02T14:28:57.000Z"
+      },
+      "totalPrice": 5000,
+      "days": 10,
+      "id": 2
+    },
+    {
+      "tripId": 3,
+      "tripName": "Trip 1",
+      "selectedDates": {
+        "dateFrom": "2023-12-24T14:28:57.082Z",
+        "dateTo": "2023-12-27T14:28:57.000Z"
+      },
+      "totalPrice": 2000,
+      "days": 4,
+      "id": 3
+    }
+  ]
+}

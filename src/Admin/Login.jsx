@@ -12,7 +12,11 @@ export default function LoginPage() {
   function LoginAdmin(e) {
     e.preventDefault();
 
-    fetch(`${url}?username=${login.username}&password=${login.passwords}`)
+    fetch(`${url}?username=${login.username}&password=${login.passwords}`,{
+      headers:{
+        'Content-Type' : 'application/json'
+      }
+    })
       .then((res) => res.json())
       .then((data) => {
         let result = data;

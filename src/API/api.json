@@ -16,6 +16,14 @@
       "username": "abhishek",
       "password": "90087656",
       "id": 2
+    },
+    {
+      "fname": "akhil",
+      "email": "test@gmail.com",
+      "mobile": "9876543213",
+      "username": "test",
+      "password": "123456",
+      "id": 3
     }
   ],
   "trips": [

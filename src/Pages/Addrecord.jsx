@@ -8,8 +8,8 @@ const TripsPage = () => {
   const [selectedDates, setSelectedDates] = useState({}); // Store selected dates for each trip
 
   useEffect(() => {
-    // Fetch data from http://localhost:3000/trips when the component mounts
-    fetch('https://136f-119-42-159-196.ngrok-free.app/trips')
+    // Fetch data from http://localhost:3000//trips when the component mounts
+    fetch('http://localhost:3000/trips')
       .then((response) => response.json())
       .then((data) => {
         setTrips(data);
@@ -65,8 +65,8 @@ const TripsPage = () => {
       days: days, // Include the days information in the postData
     };
   
-    // Make a POST request to http://localhost:3000/product
-    fetch('https://136f-119-42-159-196.ngrok-free.app/product', {
+    // Make a POST request to http://localhost:3000//product
+    fetch('http://localhost:3000/product', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

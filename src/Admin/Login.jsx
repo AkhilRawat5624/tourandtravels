@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function LoginPage() {
   const [login, setLogin] = useState("");
-  const url = "https://136f-119-42-159-196.ngrok-free.app/registerAdmin";
+  const url = "http://localhost:3000/registerAdmin";
 
   const inputHandler = (e) => {
     setLogin({ ...login, [e.target.name]: e.target.value });

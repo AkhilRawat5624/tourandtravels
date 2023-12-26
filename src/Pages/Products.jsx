@@ -6,7 +6,7 @@ export default function ProductsPage() {
   const Navigate = useNavigate();
 
   const getData = () => {
-    fetch("http://localhost:3000/Product")
+    fetch("https://136f-119-42-159-196.ngrok-free.app/Product")
       .then(res => res.json())
       .then(data => {
         console.log(data);

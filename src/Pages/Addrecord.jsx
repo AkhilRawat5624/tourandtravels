@@ -9,7 +9,7 @@ const TripsPage = () => {
 
   useEffect(() => {
     // Fetch data from http://localhost:3000/trips when the component mounts
-    fetch('http://localhost:3000/trips')
+    fetch('https://136f-119-42-159-196.ngrok-free.app/trips')
       .then((response) => response.json())
       .then((data) => {
         setTrips(data);
@@ -66,7 +66,7 @@ const TripsPage = () => {
     };
   
     // Make a POST request to http://localhost:3000/product
-    fetch('http://localhost:3000/product', {
+    fetch('https://136f-119-42-159-196.ngrok-free.app/product', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

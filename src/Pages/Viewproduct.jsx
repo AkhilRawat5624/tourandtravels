@@ -8,7 +8,7 @@ export default function ProductPage() {
   const Navigate = useNavigate();
 
   const getData = () => {
-    fetch('http://localhost:3000/Product')
+    fetch('https://136f-119-42-159-196.ngrok-free.app/Product')
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -30,7 +30,7 @@ export default function ProductPage() {
 
   const deleteRecords = (id) => {
     if (window.confirm('Are You sure?')) {
-      fetch('http://localhost:3000/Product/' + id, {
+      fetch('https://136f-119-42-159-196.ngrok-free.app/Product/' + id, {
         method: 'DELETE',
       })
         .then(() => {

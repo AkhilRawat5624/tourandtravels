@@ -11,7 +11,7 @@ export default function EditPage() {
   };
 
   function getById() {
-    fetch(`http://localhost:3000/Product/${id}`)
+    fetch(`https://136f-119-42-159-196.ngrok-free.app/Product/${id}`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -24,7 +24,7 @@ export default function EditPage() {
 
   function Updaterecords(e) {
     e.preventDefault();
-    fetch(`http://localhost:3000/Product/${id}`, {
+    fetch(`https://136f-119-42-159-196.ngrok-free.app/Product/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

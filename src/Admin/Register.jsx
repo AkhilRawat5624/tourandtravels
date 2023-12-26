@@ -11,7 +11,7 @@ export default function RegisterPage() {
 
   function dataSubmit(e) {
     e.preventDefault();
-    fetch("http://localhost:3000/registerAdmin", {
+    fetch("https://136f-119-42-159-196.ngrok-free.app/registerAdmin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

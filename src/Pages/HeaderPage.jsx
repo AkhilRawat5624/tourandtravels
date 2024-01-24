@@ -17,14 +17,14 @@ export default function HeaderPage() {
                 <div className="col-md-3"><h4>Hello {data.fname}</h4></div>
                 <div className="col-md-9 ">
                     <ul className="nav ">
-                        <li><Link to="/welcome" className="nav-link ">Home</Link></li>
-                        <li><Link to="/add" className="nav-link">Packages</Link></li>
+                        <li><Link to="/welcome" className="nav-link " style={{color :'black'}}>Home</Link></li>
+                        <li><Link to="/add" className="nav-link" style={{color :'black'}}>Packages</Link></li>
                         <li className=" dropdown">
-                            <Link to="#" className="nav-link dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navbarDropdown">
+                            <Link to="#" className="nav-link dropdown-toggle "  style={{color :'black'}} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navbarDropdown">
                                 Admin
                             </Link>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <Link to="/profile" className="dropdown-item">
+                                <Link to="/profile" className="dropdown-item" >
                                     Profile
                                 </Link>
                                 <a href="#" className="dropdown-item" onClick={logout}>
@@ -32,7 +32,7 @@ export default function HeaderPage() {
                                 </a>
                             </div>
                         </li>
-                        <li><Link to="/product" className="nav-link"><i class="fa-solid fa-cart-shopping"></i></Link></li>
+                        <li><Link to="/product" className="nav-link" style={{color :'black'}}><i class="fa-solid fa-cart-shopping"></i></Link></li>
                      
 
                     </ul>

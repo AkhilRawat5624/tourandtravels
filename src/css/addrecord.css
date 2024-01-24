@@ -1,0 +1,10 @@
+.card-style :hover{
+    transition: 0.5s;
+    transform: scale(1.020);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+.first-section{
+    background-color: #f1f1f1;
+   
+}

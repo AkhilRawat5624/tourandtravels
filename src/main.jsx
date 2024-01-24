@@ -15,6 +15,8 @@ import AddPage from './Pages/Addrecord.jsx'
 import ProductPage from './Pages/Viewproduct.jsx'
 import EditPage from './Pages/Edit.jsx'
 import ProfilePage from './Pages/Profile.jsx'
+import Email from './components/Email.jsx'
+import Testimonials from './components/Testimonials.jsx'
 
 const router=createBrowserRouter([
   {
@@ -25,7 +27,16 @@ const router=createBrowserRouter([
      
       {
         path:'',
-        element:<Carousel/>
+        element:(
+        <>
+        <Carousel/>
+        <h1 className='text-center mt-5'>RECOMMENDED FOR YOU</h1>
+        <Trips/>
+        <Trips/>
+        <Testimonials/>
+        <Email/>
+        </>),
+      
       },
       {
         
@@ -36,10 +47,7 @@ const router=createBrowserRouter([
         path:"contact",
         element:<Contact/>
       },  
-      {
-        path:"Trips",
-        element:<Trips/>
-      },  
+     
       {
         path:"Login",
         element:<LoginPage/>

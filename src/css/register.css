@@ -1,0 +1,11 @@
+.box2{
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url('https://static.toiimg.com/photo/67382132.cms');
+}
+.register-box{
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}

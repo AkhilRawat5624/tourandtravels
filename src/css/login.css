@@ -1,0 +1,27 @@
+
+.main{
+    position: relative;
+    background-image: url('https://static.toiimg.com/photo/msid-103053443,width-96,height-65.cms');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ 
+
+}
+
+.box{
+    border-radius: 10px;
+
+    backdrop-filter: blur(4px); /* Adjust the blur radius as needed */
+    background-color: rgba(255, 255, 255, 0.003); /* Adjust the background color and opacity as needed */
+    padding: 20px; 
+    
+}
+.input-box{
+    background-color: rgba(255, 255, 255, 0);
+}
+.login-btn:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}

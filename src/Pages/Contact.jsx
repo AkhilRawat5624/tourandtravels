@@ -19,7 +19,7 @@ function Contact() {
                                 <div class="card my-5 ">
                                     <div class="card-body  text-white ">
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-md-6 mb-3">
                                                 <input type="text" class="form-control" placeholder="Firstname"
                                                     aria-label="Firstname" aria-describedby="basic-addon1" />
                                             </div>
@@ -28,7 +28,7 @@ function Contact() {
                                                     aria-label="Lastname" aria-describedby="basic-addon1" />
                                             </div>
                                         </div>
-                                        <div class="input-group mt-4 ">
+                                        <div class="input-group mt-3 ">
                                             <span class="input-group-text" id="basic-addon1">@</span>
                                             <input type="text" class="form-control" placeholder="Email" aria-label="email"
                                                 aria-describedby="basic-addon1" />
@@ -67,7 +67,7 @@ function Contact() {
                                 <div className="col-sm-3">
                                 <i class="fa-solid fa-envelope"></i>
                                 </div>
-                                <div className="col-sm-8">
+                                <div className="col-sm-8 mb-4">
                                 155 Market St #101, Paterson, NJ 07505, United States
                                 </div>
                             </div>

@@ -1,0 +1,8 @@
+
+.tripCard:hover{
+    transition: 0.5s;
+    transform: scale(1.09); 
+   
+    border-radius: 10px;
+   
+}

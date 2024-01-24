@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import HeaderPage from './HeaderPage';
+import '../css/addrecord.css'
 
 const TripsPage = () => {
   const [trips, setTrips] = useState([]);
@@ -65,7 +66,7 @@ const TripsPage = () => {
       days: days, // Include the days information in the postData
     };
   
-    // Make a POST request to http://localhost:3000//product
+    
     fetch('http://localhost:3000/product', {
       method: 'POST',
       headers: {
@@ -75,7 +76,7 @@ const TripsPage = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        // Handle the response as needed
+      
         alert('Order Placed');
       })
       .catch((error) => {
@@ -86,12 +87,13 @@ const TripsPage = () => {
   return (
     <>
       <HeaderPage />
-      <div className="container mt-4">
-        <h2>Available Trips</h2>
+      <div className="container-fluid mt-5 first-section ">
+        <div className="container  py-1">
+        <h1 className='text-center  my-5  '>Available Trips</h1>
         <div className="row">
           {trips.map((trip) => (
-            <div key={trip.id} className="col-md-4 mb-4">
-              <div className="card">
+            <div key={trip.id} className="col-md-4 mb-4 card-style ">
+              <div className="card ">
                 <img src={trip.img} className="card-img-top" height={'250px'} alt={trip.name} />
                 <div className="card-body text-center">
                   <h5 className="card-title">{trip.name}</h5>
@@ -117,13 +119,14 @@ const TripsPage = () => {
                   </div>
                 </div>
                 <div className="card-footer d-grid">
-                  <button className="btn btn-dark" onClick={() => handleBookNow(trip)}>
+                  <button className="btn btn-dark book-btn" onClick={() => handleBookNow(trip)}>
                     Book Now
                   </button>
                 </div>
               </div>
             </div>
           ))}
+        </div>
         </div>
       </div>
     </>

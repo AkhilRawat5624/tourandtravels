@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <footer className="bg-white ">
+        <footer className="footer" style={{background:'#f1f1f1'}}>
             <div className="container py-4">
                 <div className="row">
                     <div className="col-md-6 mb-4 mb-md-0">
@@ -12,7 +12,7 @@ export default function Footer() {
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYCW0GHdeuqRzO0iRwmguPzvG6uhIrqUf9Ew&usqp=CAU"
                                 className="mr-3 img-fluid"
                                 alt="Logo"
-                                style={{width:'300px' , height :'160px'}}
+                                style={{width:'300px' , height :'160px',borderRadius:'50%'}}
                             />
                         </Link>
                     </div>

@@ -17,6 +17,7 @@ import EditPage from './Pages/Edit.jsx'
 import ProfilePage from './Pages/Profile.jsx'
 import Email from './components/Email.jsx'
 import Testimonials from './components/Testimonials.jsx'
+import TripsPage from './Pages/Addrecord.jsx'
 
 const router=createBrowserRouter([
   {

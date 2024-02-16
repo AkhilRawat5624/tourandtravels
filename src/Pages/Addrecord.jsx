@@ -4,7 +4,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import HeaderPage from './HeaderPage';
 import '../css/addrecord.css'
 
-const TripsPage = () => {
+const AddPage = () => {
   const [trips, setTrips] = useState([]);
   const [selectedDates, setSelectedDates] = useState({}); // Store selected dates for each trip
 
@@ -133,4 +133,4 @@ const TripsPage = () => {
   );
 };
 
-export default TripsPage;
+export default AddPage;

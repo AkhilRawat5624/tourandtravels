@@ -1,37 +1,39 @@
 {
   "registerAdmin": [
     {
-      "fname": "Akhil",
+      "fname": "Akhil Rawat",
       "email": "rawatakhil5624@gmail.com",
       "mobile": "9311712152",
-      "username": "akhilr",
+      "username": "Akhilr",
       "password": "123456",
-      "City": 4.492778569312823,
       "id": 1
     },
     {
-      "fname": "Abhishek",
-      "email": "ak2334@gmail.com",
-      "mobile": "7658908765",
-      "username": "abhishek",
-      "password": "90087656",
+      "fname": "test",
+      "email": "test@gmail.com",
+      "mobile": "1234567892",
+      "username": "test2",
+      "password": "test@123",
       "id": 2
     },
     {
-      "fname": "akhil",
-      "email": "test@gmail.com",
-      "mobile": "9876543213",
-      "username": "test",
+      "fname": "Akhil Rawat",
+      "email": "akhil@gmail.com",
+      "mobile": "1234567893",
+      "username": "akhilr",
       "password": "123456",
       "id": 3
     },
     {
-      "fname": "atul kumar",
-      "email": "atul9000@gmail.com",
-      "mobile": "3456789099",
-      "username": "atul",
-      "password": "5624",
       "id": 4
+    },
+    {
+      "fname": "Akhil Rawat",
+      "email": "rawat@gmail.com",
+      "mobile": "8765456543",
+      "username": "akhilr",
+      "password": "123456",
+      "id": 5
     }
   ],
   "trips": [
@@ -60,74 +62,7 @@
   "product": [],
   "booked": [
     [
-      {
-        "tripId": 3,
-        "tripName": "Shimla: A Himalayan Hideaway",
-        "selectedDates": {
-          "dateFrom": "2024-01-01T09:26:19.533Z",
-          "dateTo": "2024-02-02T09:26:19.000Z"
-        },
-        "totalPrice": 16500,
-        "days": 33,
-        "id": 1
-      },
-      {
-        "tripId": 2,
-        "tripName": "Jaipur: Royalty in the Pink City",
-        "selectedDates": {
-          "dateFrom": "2024-01-01T09:26:19.533Z",
-          "dateTo": "2024-01-31T09:26:19.000Z"
-        },
-        "totalPrice": 15500,
-        "days": 31,
-        "id": 2
-      },
-      {
-        "tripId": 1,
-        "tripName": "Uttrakhand: A Mountainous Retreat",
-        "selectedDates": {
-          "dateFrom": "2024-01-01T09:26:19.533Z",
-          "dateTo": "2024-01-30T09:26:19.000Z"
-        },
-        "totalPrice": 15000,
-        "days": 30,
-        "id": 3
-      }
-    ],
-    [
-      {
-        "tripId": 3,
-        "tripName": "Shimla: A Himalayan Hideaway",
-        "selectedDates": {
-          "dateFrom": "2024-01-01T09:26:19.533Z",
-          "dateTo": "2024-02-02T09:26:19.000Z"
-        },
-        "totalPrice": 16500,
-        "days": 33,
-        "id": 1
-      },
-      {
-        "tripId": 2,
-        "tripName": "Jaipur: Royalty in the Pink City",
-        "selectedDates": {
-          "dateFrom": "2024-01-01T09:26:19.533Z",
-          "dateTo": "2024-01-31T09:26:19.000Z"
-        },
-        "totalPrice": 15500,
-        "days": 31,
-        "id": 2
-      },
-      {
-        "tripId": 1,
-        "tripName": "Uttrakhand: A Mountainous Retreat",
-        "selectedDates": {
-          "dateFrom": "2024-01-01T09:26:19.533Z",
-          "dateTo": "2024-01-30T09:26:19.000Z"
-        },
-        "totalPrice": 15000,
-        "days": 30,
-        "id": 3
-      }
+      {}
     ]
   ]
 }

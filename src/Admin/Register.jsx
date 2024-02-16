@@ -13,7 +13,7 @@ export default function RegisterPage() {
   async function dataSubmit(e) {
     e.preventDefault();
     try {
-      const response = await fetch('https://ioat4gcntf.execute-api.ap-south-1.amazonaws.com/default/registerUserData', {
+      const response = await fetch('http://localhost:3000/registerAdmin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -28,7 +28,7 @@ export default function RegisterPage() {
       });
 
       const data = await response.json();
-      alert(data.message);
+      alert("Registration Successful");
       setRegister({});
       e.target.reset();
     } catch (error) {
